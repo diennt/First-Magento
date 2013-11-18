@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Magento
+ * My first module config
+ */
+-->
+<config>
+    <modules>
+        <SM_FirstModule>
+            <active>true</active>
+            <codePool>local</codePool>
+        </SM_FirstModule>
+    </modules>
+</config>
