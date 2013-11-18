@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <SM_HelloWorld>
+            <version>0.0.1</version>
+        </SM_HelloWorld>
+    </modules>
+    <global>
+        <models>
+            <SM_HelloWorld>
+                <class>SM_HelloWorld_Model</class>
+            </SM_HelloWorld>
+        </models>
+    </global>
+    <frontend>
+        <routers>
+            <helloworld>
+                <use>standard</use>
+                <args>
+                    <module>SM_HelloWorld</module>
+                    <frontName>helloworld</frontName>
+                </args>
+            </helloworld>
+        </routers>
+    </frontend>
+</config>
